@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    
+}
+
+/* Header Area Start */
+header{
+    height: 200px;
+    background-color: crimson;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px;
+}
+
+/*Nav Area Start*/
+nav{
+    height: 100px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+nav ul{
+    text-decoration: none;   
+}
+nav ul a{
+    text-decoration: none;
+    padding: 10px ;   
+}
+nav ul li{
+    display: inline;
+}
+
+/*Section Area Start*/
+
+.main_sec{
+
+}
+.feature{
+    text-align: center;
+    background-color: darkkhaki;
+    height: 200px;
+    margin: 20px;
+}
+
+.column{
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Sub Section of Column Start */
+
+.top_col{
+    width: 33.33%;
+    height: 200px;
+    background-color: darksalmon;
+    float: left;
+}
+.mid_col{
+    width: 33.33%;
+    height: 200px;
+    background-color: darkorange;
+    float: left;
+}
+.bottom_col{
+    width: 33.33%;
+    
+    height: 200px;
+    background-color: darkslateblue;
+    float: left;
+}
+
+/* Sub Section of Column End*/
+
+/*Section Area End*/
+
+/* Footer Area Start*/
+footer{
+    height: 250px;
+    background-color: darkviolet;
+    text-align: center;
+    font-size: 10px;
+    margin: 30px;
+}
+/*Footer Area End*/
